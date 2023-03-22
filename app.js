@@ -1,11 +1,4 @@
 const express = require("express");
-const {
-  createBook,
-  getBook,
-  getBooks,
-  updateBook,
-  deleteBook,
-} = require("./modules/books/books.controller.js");
 
 const app = express();
 const bodyParser = require("body-parser");

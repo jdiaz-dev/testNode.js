@@ -8,7 +8,7 @@
 const books = [];
 
 const createBook = ({ id, title, description }) => {
-  const data = { id, title, description };
+  const data = { id, title, description, createdAt: new Date() };
   books.push(data);
   return data;
 };
